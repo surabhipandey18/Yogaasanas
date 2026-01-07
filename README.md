@@ -1,4 +1,4 @@
-# 🧘‍♀️ Yoga Pose Classification with MobileNetV2 (Transfer Learning)
+#  Yoga Pose Classification with MobileNetV2 (Transfer Learning)
 
 This project classifies **five yoga poses** using a deep learning model. We used a dataset sourced from **Kaggle**, applied **data augmentation**, and compared a custom **CNN model** with a **MobileNetV2 transfer learning approach**.
 
@@ -51,5 +51,10 @@ The MobileNetV2-based model significantly outperformed the CNN in both accuracy 
 
 ---
 
-## 📁 Directory Structure
+## XAI on Yogasana dataset
+- When applied XAI algorithms such as LIME and SHAP, I realised that the given accuracy was actually not worth it.
+- The model seems to learn only the background ad not actually the pose.
+<img width="432" height="435" alt="LIME" src="https://github.com/user-attachments/assets/cfe24b12-d14b-4264-a0b3-5e39d82313d7" />
+<img width="890" height="445" alt="SHAP" src="https://github.com/user-attachments/assets/396ade89-e13f-46a1-bc6f-3b4588ecdbda" />
+
 
